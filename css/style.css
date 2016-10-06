@@ -1,11 +1,3 @@
-/*
-   Template Name: Cornike - Business HTML5 Template
-   Author: Tripples
-   Author URI: https://themeforest.net/user/tripples
-   Description: Cornike - Business HTML5 Template
-   Version: 1.0
-*/
-
 /* Table of Content
 ==================================================
 1.    Typography
@@ -30,7 +22,7 @@
 20.   Sidebar
 21.   Error page
 22.   Home variations
-  
+
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
@@ -115,14 +107,14 @@ body{
    overflow: hidden;
 }
 
-.preload{ 
-   position:fixed; 
+.preload{
+   position:fixed;
    background: #fff url(http://themewinter.com/html/cornike/logistic/images/preload.gif) center center no-repeat;
-   left:0px; 
-   top:0px; 
-   width:100%; 
-   height:100%; 
-   z-index:99999; 
+   left:0px;
+   top:0px;
+   width:100%;
+   height:100%;
+   z-index:99999;
 }
 
 a:link,
@@ -483,7 +475,7 @@ cite {
 
 /* Ul, Ol */
 
-.list-round, 
+.list-round,
 .list-arrow,
 .list-check{
    list-style: none;
@@ -546,8 +538,8 @@ ul.list-check li:before {
 
 /* Bootstrap */
 
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li>a:hover,
 .nav-tabs>li>a{
@@ -856,14 +848,14 @@ ul.navbar-nav > li{
 }
 
 
-ul.navbar-nav > li:hover > a, 
+ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a{
   color: #e50404;
   position: relative;
 }
 
 
-ul.navbar-nav > li:hover > a:after, 
+ul.navbar-nav > li:hover > a:after,
 ul.navbar-nav > li.active > a:after{
    font-family: FontAwesome;
    position: absolute;
@@ -907,7 +899,7 @@ ul.navbar-nav > li > a{
     transition: 350ms;
 }
 
-ul.navbar-nav > li > a:hover, 
+ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus{
    background: none;
 }
@@ -916,7 +908,7 @@ ul.navbar-nav > li > a i{
 	font-weight: 700;
 }
 
-.nav .open>a, .nav .open>a:hover, 
+.nav .open>a, .nav .open>a:hover,
 .nav .open>a:focus{
 	background: transparent;
 	border:0;
@@ -969,15 +961,15 @@ ul.navbar-nav > li > a i{
 @media (min-width: 768px) {
 
 	ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
-	ul.nav li.dropdown:hover ul.dropdown-menu 
+	ul.nav li.dropdown:hover ul.dropdown-menu
    li.dropdown-submenu ul.dropdown-menu {
 	    display: none;
-	} 
+	}
 
-	ul.nav li.dropdown ul.dropdown-menu 
+	ul.nav li.dropdown ul.dropdown-menu
    li.dropdown-submenu:hover ul.dropdown-menu {
 	    display: block;
-	} 
+	}
 }
 
 .dropdown-menu{
@@ -1029,15 +1021,15 @@ ul.navbar-nav > li > a i{
 	border-bottom: 0;
 }
 
-.dropdown-menu>.active>a, 
-.dropdown-menu>.active>a:hover, 
-.dropdown-menu>.active>a:focus, 
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>.dropdown-menu>.active>a{
 	background: none;
 	color: #e50404;
 }
 
-.dropdown-menu li a:hover, 
+.dropdown-menu li a:hover,
 .dropdown-menu li a:focus{
 	color: #e50404;
 }
@@ -1244,7 +1236,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 
-#main-slide .carousel-control .fa-angle-left, 
+#main-slide .carousel-control .fa-angle-left,
 #main-slide .carousel-control .fa-angle-right{
 	position: absolute;
 	top: 50%;
@@ -1284,7 +1276,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 /*-- Animation */
 .carousel .item.active .animated1 {
-   
+
 }
 
 .carousel .item.active .animated2{
@@ -1586,7 +1578,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    color: #fff;
    margin: 0;
    line-height: 36px;
-}  
+}
 
 
 /* Features
@@ -2117,7 +2109,7 @@ h4.panel-title a.collapsed:before {
 }
 
 .panel-classic h4.panel-title{
-   padding-bottom: 0; 
+   padding-bottom: 0;
 }
 
 
@@ -3651,7 +3643,7 @@ label{
 }
 
 .sidebar .widget ul li a:hover{
-   color: #e50404;  
+   color: #e50404;
 }
 
 .sidebar .widget ul li i{
@@ -3686,7 +3678,7 @@ label{
 
 }
 
-.sidebar ul.nav-tabs li.active a, 
+.sidebar ul.nav-tabs li.active a,
 .sidebar ul.nav-tabs li:hover a{
    color: #e50404;
 }
@@ -3925,6 +3917,3 @@ label{
 .nav-style-boxed.boxed-full .navbar-collapse {
     padding-left: 0;
 }
-
-
-
